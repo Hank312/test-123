@@ -1,3 +1,4 @@
+//Demo Modification
 import java.util.Scanner;
 
  public class calculator
@@ -46,7 +47,10 @@ import java.util.Scanner;
 	                 System.out.print("Result = " + res);
 	                 break;
 	 
-	      case '5' : System.exit(0);
+	      
+
+
+	     case '5' : System.exit(0);
 	                 break;
 	
 	      default : System.out.print("Wrong Choice!!!");
@@ -55,4 +59,5 @@ import java.util.Scanner;
 																	            System.out.print("\n---------------------------------------\n");
 	}while(choice != 5);       
     }
-}
+
+  }
